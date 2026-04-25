@@ -28,8 +28,8 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0B1F3A]/70 mix-blend-multiply z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=2000" 
-            alt="Event Decoration" 
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000" 
+            alt="Corporate Building" 
             className="w-full h-full object-cover"
           />
         </div>
@@ -39,27 +39,19 @@ const Home = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-5xl md:text-7xl font-bold tracking-tight mb-4"
+            className="text-5xl md:text-7xl font-bold tracking-tight mb-6"
           >
-            QIBILA <span className="text-[#C9A54C]">GROUP</span>
+            Building Businesses.<br/>
+            <span className="text-[#C9A54C]">Creating Impact.</span>
           </motion.h1>
           
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-            className="text-2xl md:text-3xl tracking-widest uppercase font-light mb-6"
-          >
-            Catering & Event Management
-          </motion.h2>
-
           <motion.p 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="mt-4 text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-10 italic font-light"
+            className="mt-4 text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-10 font-light"
           >
-            "We Create Memorable Moments"
+            A premier corporate conglomerate driving innovation and excellence across technology, real estate, and strategic consulting.
           </motion.p>
           
           <motion.div
@@ -68,10 +60,10 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
             <a 
-              href="#services" 
+              href="#businesses" 
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-[#0B1F3A] bg-[#C9A54C] hover:bg-white transition-colors duration-300 rounded-sm uppercase tracking-widest shadow-lg hover:shadow-xl"
             >
-              Explore Our Services
+              Explore Our Businesses
               <ArrowRight className="ml-2 -mr-1 w-5 h-5" />
             </a>
           </motion.div>
@@ -94,7 +86,6 @@ const Home = () => {
           </div>
         </motion.div>
       </section>
-
       {/* About Preview Section */}
       <section className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
